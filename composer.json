@@ -55,7 +55,9 @@
         "classmap": [
             "scripts/composer/ScriptHandler.php"
         ],
-        "files": ["load.environment.php"]
+        "files": [
+            "load.environment.php"
+        ]
     },
     "scripts": {
         "pre-install-cmd": [
@@ -113,6 +115,9 @@
         "patches": {
             "drupal/warden": {
                 "https://www.drupal.org/project/warden/issues/3024254": "https://git.drupalcode.org/project/warden/-/commit/b28f9cf2b9acdd21ed3584bf5276b39f11f1cb49.patch"
+            },
+            "drupal/core": {
+                "Add support for the experimental recipes functionality": "https://git.drupalcode.org/project/distributions_recipes/-/raw/patch/recipe.patch"
             }
         },
         "dropin-paths": {
