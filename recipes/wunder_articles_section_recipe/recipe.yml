@@ -1,0 +1,10 @@
+# An example recipe that shows the installation and configuration of a contrib module.
+# this includes a config folder to import configuration for the easy breadcrumbs contrib module.
+name: 'Wunder articles section recipe'
+description: "An example recipe showing the adding of a section for the site."
+type: 'Content'
+install:
+  - easy_breadcrumb
+  - node
+  - text
+  - pathauto
