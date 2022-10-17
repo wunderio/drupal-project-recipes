@@ -1,6 +1,13 @@
-# Wunder template for Drupal projects
+# Wunder template for Drupal projects - Recipes edition
 
 This project template is an opinionated fork of the popular [Drupal-composer template](https://github.com/drupal-composer/drupal-project), configured to automatically deploy code to a [Kubernetes](https://kubernetes.io/) cluster using [CircleCI](https://circleci.com/). Everything that works with the Drupal-composer project template will work with this repository, so we won't duplicate the documentation here.
+
+## DRUPAL recipes testing grounds
+
+In this forked repository, we are experimenting with Drupal Recipes, which is a new way to share reusable configuration
+across Drupal sites, as part of the [Distributions and recipes core initiative](https://www.drupal.org/project/distributions_recipes).
+
+Check the [README.md](./recipes/README.md) file in the `/recipes` directory for more information.
 
 ## Getting started
 
