@@ -8,10 +8,12 @@ recipe:
   # recipes fail to be applied, this recipe will not be applied either.
   - wunder_roles
 install:
+  - menu_ui
   - easy_breadcrumb
   - node
   - text
   - pathauto
+  - views
   # Configuration actions may be defined. The structure here should be
   # configuration entity ID, action, and then action arguments. Below the user
   # role entity type with an ID of editor is being created if it does not exist
