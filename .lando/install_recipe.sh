@@ -17,3 +17,4 @@ if [ $# -eq 0 ]; then
 fi
 
 php core/scripts/drupal recipe ../recipes/"$recipe_directory_name"
+drush cr
