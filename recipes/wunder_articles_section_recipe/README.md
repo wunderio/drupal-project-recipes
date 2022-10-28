@@ -25,5 +25,5 @@ The recipe can be installed using these lando commands:
 (Caution, this command will re-install the site)
 
 ```shell
-lando drush sql-drop -y && lando drush si -y && lando install-recipe wunder_articles_section_recipe && lando drush uli && lando drush cr
+lando drush si -y && lando install-recipe wunder_articles_section_recipe && lando drush uli && lando drush cr
 ```

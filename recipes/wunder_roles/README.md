@@ -19,5 +19,5 @@ The recipe can be installed using these commands:
 (Caution, this command will re-install the site)
 
 ```shell
-lando drush sql-drop -y && lando drush si -y && lando install-recipe wunder_roles && lando  drush user:create testuser --mail="person@example.com" --password="letmein" && lando drush user:role:add wunder_content_editor testuser && lando drush uli --name testuser
+lando drush si -y && lando install-recipe wunder_roles && lando  drush user:create testuser --mail="person@example.com" --password="letmein" && lando drush user:role:add wunder_content_editor testuser && lando drush uli --name testuser
 ```
