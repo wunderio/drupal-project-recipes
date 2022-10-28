@@ -117,7 +117,8 @@
                 "https://www.drupal.org/project/warden/issues/3024254": "https://git.drupalcode.org/project/warden/-/commit/b28f9cf2b9acdd21ed3584bf5276b39f11f1cb49.patch"
             },
             "drupal/core": {
-                "Add support for the experimental recipes functionality": "https://git.drupalcode.org/project/distributions_recipes/-/raw/patch/recipe.patch"
+                "Add support for the experimental recipes functionality": "https://git.drupalcode.org/project/distributions_recipes/-/raw/patch/recipe.patch",
+                "Fix error when enabling the language module via recipe": "https://www.drupal.org/files/issues/2019-11-19/drupal.8.8.x-3002532-20.patch"
             }
         },
         "dropin-paths": {

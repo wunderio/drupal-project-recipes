@@ -3,9 +3,11 @@
 name: 'Wunder articles section recipe'
 description: "An example recipe showing the adding of a section for the site."
 type: 'Content type'
-recipe:
+# note, that this needs to be plural:
+recipes:
   # An array of recipe's to apply prior to applying this recipe. If any of these
   # recipes fail to be applied, this recipe will not be applied either.
+  - wunder_languages
   - wunder_roles
 install:
   - menu_ui
