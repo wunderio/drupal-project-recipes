@@ -15,10 +15,9 @@ When installed, this recipe will create:
 The recipe can be installed using these lando commands:
 
 1. `lando composer require drupal/easy_breadcrumb:^2.0.3 drupal/pathauto:^1.11`
-2. `lando install-recipe wunder_articles_section_recipe`
-3. `lando drush cr`
-4. `lando drush cex -y` <- export your configuration
-5. commit `composer.json`, `composer.lock` and the updated configuration.
+2. `lando install-recipe wunder_articles_section`
+3. `lando drush cex -y` <- export your configuration
+4. commit `composer.json`, `composer.lock` and the updated configuration.
 
 ### Testing on an empty site
 

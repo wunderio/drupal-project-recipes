@@ -1,6 +1,6 @@
 # An example recipe that shows the installation and configuration of a contrib module.
 # this includes a config folder to import configuration for the easy breadcrumbs contrib module.
-name: 'Wunder articles section recipe'
+name: 'Wunder articles section'
 description: "An example recipe showing the adding of a section for the site."
 type: 'Content type'
 # note, that this needs to be plural:
@@ -16,11 +16,6 @@ install:
   - text
   - pathauto
   - views
-  # Configuration actions may be defined. The structure here should be
-  # configuration entity ID, action, and then action arguments. Below the user
-  # role entity type with an ID of editor is being created if it does not exist
-  # and then has permissions added. The permissions key will be mapped to the
-  # \Drupal\user\Entity\Role::grantPermission() method.
 config:
   actions:
     user.role.wunder_content_editor:
