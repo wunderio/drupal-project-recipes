@@ -8,6 +8,8 @@ When installed, this recipe will setup:
 * set translation options for all media types
 * set permissions to work with the created media types for the wunder_editor role.
 
+> note: this requires to run against a site that has been installed using the default installation profile.
+
 ### Manual Installation instructions
 
 The recipe can be installed using these lando commands:

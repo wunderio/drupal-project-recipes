@@ -16,8 +16,8 @@ config:
   import:
     media_library: '*'
     media: '*'
-    image: '*'
-
+    # uncomment this if installing over the minimal installation profile:
+    # image: '*'
   actions:
     user.role.wunder_content_editor:
       ensure_exists:
