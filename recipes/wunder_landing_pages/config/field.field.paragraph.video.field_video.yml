@@ -7,6 +7,8 @@ dependencies:
     - media.type.remote_video
     - media.type.video
     - paragraphs.paragraphs_type.video
+_core:
+  default_config_hash: lmk9EKGfVRzP-Oe_3gTcviRFN2h35mY-coKBXQo8gwU
 id: paragraph.video.field_video
 field_name: field_video
 entity_type: paragraph
@@ -14,7 +16,7 @@ bundle: video
 label: Video
 description: ''
 required: true
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:

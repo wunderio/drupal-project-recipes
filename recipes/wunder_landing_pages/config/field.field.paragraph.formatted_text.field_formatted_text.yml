@@ -7,6 +7,8 @@ dependencies:
     - paragraphs.paragraphs_type.formatted_text
   module:
     - text
+_core:
+  default_config_hash: bDjpEPbOCFpgyR2-EYri2bRLtFN2-b8zXnqzxccmioc
 id: paragraph.formatted_text.field_formatted_text
 field_name: field_formatted_text
 entity_type: paragraph
@@ -14,7 +16,7 @@ bundle: formatted_text
 label: 'Formatted text'
 description: ''
 required: true
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings: {  }

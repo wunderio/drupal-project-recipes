@@ -6,6 +6,8 @@ dependencies:
     - field.storage.paragraph.field_image
     - media.type.image
     - paragraphs.paragraphs_type.image
+_core:
+  default_config_hash: 3ui0c1pzdkqn9iQiWPao6gxMWdkz0qFXGAMSYfHXkCs
 id: paragraph.image.field_image
 field_name: field_image
 entity_type: paragraph
@@ -13,7 +15,7 @@ bundle: image
 label: Image
 description: ''
 required: true
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:
