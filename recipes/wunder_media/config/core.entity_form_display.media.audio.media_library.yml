@@ -1,3 +1,4 @@
+uuid: bb9e8665-08eb-43b0-8fbd-1aeeb59949d6
 langcode: en
 status: true
 dependencies:
@@ -19,6 +20,11 @@ content:
     settings:
       include_locked: true
     third_party_settings: {  }
+  translation:
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+    region: content
 hidden:
   created: true
   field_media_audio_file: true

@@ -1,3 +1,4 @@
+uuid: 28bd4d8d-5271-4944-aed2-6d833f59c483
 langcode: en
 status: true
 dependencies:
@@ -30,6 +31,11 @@ content:
     settings:
       include_locked: true
     third_party_settings: {  }
+  translation:
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+    region: content
 hidden:
   created: true
   name: true

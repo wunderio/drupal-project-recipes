@@ -1,3 +1,4 @@
+uuid: 551d68ed-dfa2-4dc4-8ac6-72d14baba75b
 langcode: en
 status: true
 dependencies:
@@ -19,6 +20,11 @@ content:
     settings:
       include_locked: true
     third_party_settings: {  }
+  translation:
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+    region: content
 hidden:
   created: true
   field_media_video_file: true

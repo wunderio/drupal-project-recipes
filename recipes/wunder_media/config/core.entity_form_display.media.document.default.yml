@@ -1,3 +1,4 @@
+uuid: bcba3eb2-5b68-49b6-bf90-e333349ade9f
 langcode: en
 status: true
 dependencies:
@@ -8,7 +9,7 @@ dependencies:
     - file
     - path
 _core:
-  default_config_hash: aewrRkePgJzdD5kPOq8JeMcKHs6yat49nE7ZeCQzQZg
+  default_config_hash: VVP9OzVZ6HvII0LCdtkznu4XPARG95XCY5N03f-Sn3I
 id: media.document.default
 targetEntityType: media
 bundle: document
