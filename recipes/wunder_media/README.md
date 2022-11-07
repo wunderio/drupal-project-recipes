@@ -14,8 +14,7 @@ When installed, this recipe will setup:
 
 The recipe can be installed using these lando commands:
 
-1. `lando compose require 'drupal/paragraphs:^1.15'`
-2. `lando install-recipe wunder_media`
+1. `lando install-recipe wunder_media`
 3. `lando drush cex -y` <- export your configuration
 4. commit the updated configuration.
 
